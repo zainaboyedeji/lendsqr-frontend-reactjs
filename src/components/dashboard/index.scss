@@ -1,64 +1,29 @@
 .appMenu {
-    .mainDiv {
-        .ant-menu-submenu{
-            .ant-menu-title-content {
-                color: #213F7D;
-                font-weight: 400;
-                font-size: 13px;
-                font-family: "WorkSans Regular";
-            }
-        }
-
-        .ant-menu-item {
-            .ant-menu-title-content {
-                color: #213F7D;
-                font-weight: 400;
-                font-size: 13px;
-                font-family: "WorkSans Regular";
-            }
-        }
-
-        .ant-menu-item-group {
-            .ant-menu-item-group-title {
-                color: #545F7D;
-                font-weight: 500;
-                font-size: 12px;
-                font-family: "WorkSans Regular";
-            }
-
-            .ant-menu-item-group-list {
-                .ant-menu-title-content {
-                    color: #213F7D;
-                    font-weight: 400;
-                    font-size: 13px;
-                    font-family: "WorkSans Regular";
-                }
-            }
-        }
-        .sideBar{
-            background-color: #FBFBFB;
-        }
+  .mainDiv {
+    .sideBar {
+      background-color: #fbfbfb;
     }
+  }
 }
 @media (max-width: 1189px) {
-    .appMenu{
-      .mainDiv {
-      .sideBar{
+  .appMenu {
+    .mainDiv {
+      .sideBar {
         padding: 1rem;
-      }
       }
     }
   }
+}
 
 @media (max-width: 1022px) {
-    .appMenu{
-      .mainDiv {
-      .ant-menu{
+  .appMenu {
+    .mainDiv {
+      .ant-menu {
         display: none;
       }
-      .sideBar{
+      .sideBar {
         padding: 1rem;
-      }
       }
     }
   }
+}

@@ -162,8 +162,8 @@ const User = () => {
 
         <div className="flex justify-between mt-6">
           <div className="showSelect flex">
-            <p className="inline">Showing</p>
-            <div className="inline">
+            <p >Showing</p>
+            <div >
               <Formik
                 initialValues={{
                   name: "",
@@ -176,10 +176,11 @@ const User = () => {
                     { id: "1", name: "bn" },
                     { id: "2", name: "ish" },
                   ]}
+                  className="bg-gray-100 mr-2 ml-2"
                 />
               </Formik>
             </div>
-            <p className="inline">out of 100</p>
+            <p>out of 100</p>
           </div>
           <Pagination
             defaultCurrent={1}

@@ -30,27 +30,62 @@
   }
 }
 
+.ant-modal-root {
+  .ant-modal-wrap {
+    .ant-modal {
+      .ant-modal-content {
+        padding: 0.5rem;
+       .ant-modal-body{
+        margin-top: 2rem;
+        .ant-menu{
+          width:100%!important;
+          border:0;
+         }
+       }
+      }
+      .ant-modal-footer{
+        .ant-btn-default{
+          font-weight: 400;
+          font-size: 13px;
+          font-family: "WorkSans Regular";
+        }
+        .ant-btn-primary{
+          background-color: #213f7d;
+          color:white;
+          font-weight: 400;
+          font-size: 13px;
+          font-family: "WorkSans Regular";
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1022px) {
   .appNavbar {
     padding: 1rem;
-    .navbarLast {
-      margin: 0;
-    }
+
     .navbarSearch {
+      display: none;
+    }
+    .navbarLast {
+      width: 40%;
+      justify-content: space-evenly;
       margin: 0;
+      a {
+        margin: 0;
+      }
+      img {
+        margin: 0;
+      }
+      .dropImg {
+        margin: 0.5rem 0rem 0rem 0.5rem;
+      }
     }
   }
   .mobileNav {
     display: block;
-    .ant-modal-root{
-      .ant-wrap{
-        .ant-modal{
-          .ant-modal-content{
-            background-color: red;
-          }
-        }
-      }
-    }
+    padding: 1rem;
   }
 }
 
@@ -58,10 +93,13 @@
   .appNavbar {
     .navbarLast {
       a {
-        margin-right: 1rem;
+        display: none;
       }
-      .searchMobile {
-        display: block;
+      .bellImg {
+        display: none;
+      }
+      .searchImg {
+        display: none;
       }
     }
     .navbarSearch {

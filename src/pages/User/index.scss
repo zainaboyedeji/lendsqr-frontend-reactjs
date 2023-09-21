@@ -18,7 +18,7 @@
       .status-active {
         background-color: rgb(236 252 203);
         border: none;
-        color: #39CD62;
+        color: #39cd62;
         padding: 5px 15px;
         text-align: center;
         text-decoration: none;
@@ -30,7 +30,7 @@
       .status-inactive {
         background-color: rgb(245 245 245);
         border: none;
-        color: #545F7D;
+        color: #545f7d;
         padding: 5px 15px;
         text-align: center;
         text-decoration: none;
@@ -42,7 +42,7 @@
       .status-pending {
         background-color: rgb(255 237 213);
         border: none;
-        color: #E9B200;
+        color: #e9b200;
         padding: 5px 15px;
         text-align: center;
         text-decoration: none;
@@ -54,7 +54,7 @@
       .status-blacklisted {
         background-color: rgb(254 202 202);
         border: none;
-        color: #E4033B;
+        color: #e4033b;
         padding: 5px 15px;
         text-align: center;
         text-decoration: none;
@@ -89,11 +89,21 @@
   }
 }
 
-.viewPopper{
-  p{
+.viewPopper {
+  p {
     color: #545f7d;
     font-weight: 500;
     font-size: 13px;
     font-family: "WorkSans Medium";
+  }
+}
+
+@media (max-width: 500px) {
+  .userMain {
+    .tableSection {
+        .showSelect {
+          display: none;
+        }
+    }
   }
 }

@@ -22,6 +22,7 @@ import Users from "../../images/menuIcons/users.png"
 import type { MenuProps } from 'antd'
 import { useNavigate } from "react-router-dom"
 import { Menu } from 'antd'
+import "./appmenu.scss"
 
 type MenuItem = Required<MenuProps>['items'][number];
 
