@@ -1,0 +1,317 @@
+@import "./config/variables.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+//WorkSans
+@font-face {
+  font-family: $font-black;
+  src: url("./font/WorkSans/WorkSans-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-blackitalic;
+  src: url("./font/WorkSans/WorkSans-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-bold;
+  src: url("./font/WorkSans/WorkSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-bolditalic;
+  src: url("./font/WorkSans/WorkSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-extrabold;
+  src: url("./font/WorkSans/WorkSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-extrabolditalic;
+  src: url("./font/WorkSans/WorkSans-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-extralight;
+  src: url("./font/WorkSans/WorkSans-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-extralightitalic;
+  src: url("./font/WorkSans/WorkSans-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-italic;
+  src: url("./font/WorkSans/WorkSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-light;
+  src: url("./font/WorkSans/WorkSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-lightitalic;
+  src: url("./font/WorkSans/WorkSans-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-medium;
+  src: url("./font/WorkSans/WorkSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-mediumitalic;
+  src: url("./font/WorkSans/WorkSans-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-regular;
+  src: url("./font/WorkSans/WorkSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-semibold;
+  src: url("./font/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-semibolditalic;
+  src: url("./font/WorkSans/WorkSans-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-thin;
+  src: url("./font/WorkSans/WorkSans-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-thinitalic;
+  src: url("./font/WorkSans/WorkSans-ThinItalic.ttf") format("truetype");
+}
+
+//AvenirNext
+@font-face {
+  font-family: $font-AvenirNextProBold;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProBoldCn;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-BoldCn.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProBoldCnIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-BoldCnIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProBoldIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-BoldIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProCn;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-Cn.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProCnIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-CnIt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProDemi;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProDemiCn;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-DemiCn.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProDemiCnIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-DemiCnIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProDemiIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-DemiIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProHeavy;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-Heavy.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProHeavyCn;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-HeavyCn.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProHeavyCnIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-HeavyCnIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProHeavyIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-HeavyIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-It.otf") format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProMedium;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-Medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProMediumCn;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-MediumCn.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProMediumCnIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-MediumCnIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProMediumIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-MediumIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProRegular;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProUltLt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-UltLt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProUltLtCn;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-UltLtCn.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProUltLtCnIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-UltLtCnIt.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: $font-AvenirNextProUltLtIt;
+  src: url("./font/Avenir_Next_Pro/AvenirNextLTPro-UltLtIt.otf")
+    format("opentype");
+}
+
+//Roboto
+@font-face {
+  font-family: $font-RobotoBlack;
+  src: url("./font/Roboto/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoBlackitalic;
+  src: url("./font/Roboto/Roboto-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoBold;
+  src: url("./font/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoBolditalic;
+  src: url("./font/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoItalic;
+  src: url("./font/Roboto/Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoLight;
+  src: url("./font/Roboto/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoLightItalic;
+  src: url("./font/Roboto/Roboto-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoMedium;
+  src: url("./font/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoMediumItalic;
+  src: url("./font/Roboto/Roboto-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoRegular;
+  src: url("./font/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoThin;
+  src: url("./font/Roboto/Roboto-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $font-RobotoThinItalic;
+  src: url("./font/Roboto/Roboto-ThinItalic.ttf") format("truetype");
+}
+

@@ -1,0 +1,31 @@
+.userDetails {
+  background-color: white;
+
+  .main {
+    border-bottom: 1px solid #213f7d;
+    padding-bottom: 2rem;
+
+    h6 {
+      font-family: "WorkSans Medium";
+      font-size: 16px;
+      font-weight: 500;
+      color: #213f7d;
+    }
+    p {
+      font-family: "WorkSans Regular";
+      font-size: 12px;
+      font-weight: 400;
+      color: #213f7d;
+    }
+  }
+}
+
+@media (max-width: 808px) {
+  .userDetails {
+    .main{
+        .gridMobile{
+            grid-template-columns: repeat(auto-fill, 186px);
+        }
+    }
+  }
+}

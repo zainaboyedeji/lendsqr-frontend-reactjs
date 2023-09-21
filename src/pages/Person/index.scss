@@ -1,0 +1,171 @@
+.personMain {
+  .mainDiv {
+    img {
+      width: 30px;
+      height: 20px;
+    }
+
+    p {
+      color: #545f7d;
+      font-family: "WorkSans Regular";
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .personSub {
+    h1 {
+      color: #213f7d;
+      font-family: "WorkSans Medium";
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .personButtons {
+      .blacklist {
+        width: 170px;
+        height: 40px;
+        border: 1px solid red;
+        border-radius: 8px;
+        font-family: "WorkSans Regular";
+        font-size: 14px;
+        font-weight: 600;
+        color: red;
+      }
+
+      .activate {
+        width: 170px;
+        height: 40px;
+        border: 1px solid #39cdcc;
+        border-radius: 8px;
+        font-family: "WorkSans Regular";
+        font-size: 14px;
+        font-weight: 600;
+        color: #39cdcc;
+      }
+    }
+  }
+
+  .userDetails {
+    background-color: white;
+
+    .mainPerson {
+      .first {
+        border-right: 1px solid #545f7d;
+
+        h6 {
+          font-family: "WorkSans Medium";
+          font-size: 22px;
+          font-weight: 500;
+          color: #213f7d;
+        }
+
+        p {
+          font-family: "WorkSans Regular";
+          font-size: 14px;
+          font-weight: 400;
+          color: #545f7d;
+        }
+      }
+
+      .second {
+        border-right: 1px solid #545f7d;
+
+        p {
+          font-family: "WorkSans Regular";
+          font-size: 14px;
+          font-weight: 400;
+          color: #545f7d;
+        }
+      }
+
+      .third {
+        h6 {
+          font-family: "WorkSans Medium";
+          font-size: 22px;
+          font-weight: 500;
+          color: #213f7d;
+        }
+
+        p {
+          font-family: "WorkSans Regular";
+          font-size: 12px;
+          font-weight: 400;
+          color: #213f7d;
+        }
+      }
+    }
+
+    .ant-tabs {
+      .ant-tabs-nav {
+        margin: 0 !important;
+        .ant-tabs-tab {
+          .ant-tabs-tab-btn {
+            font-family: "WorkSans Regular";
+            font-size: 16px;
+            font-weight: 400;
+            color: black;
+          }
+        }
+
+        .ant-tabs-tab-active {
+          .ant-tabs-tab-btn {
+            font-family: "WorkSans Regular";
+            font-size: 16px;
+            font-weight: 400;
+            color: #39cdcc;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 796px) {
+  .personMain {
+    .personSub {
+      h1 {
+        font-size: 16px;
+      }
+
+      .personButtons {
+        .blacklist {
+          font-size: 10px;
+          width: 100px;
+          height: 20px;
+        }
+        .activate {
+          font-size: 10px;
+          width: 100px;
+          height: 20px;
+        }
+      }
+    }
+    .userDetails {
+      padding: 0.5rem;
+      .mainPerson {
+        .first {
+          padding: 0rem 0.5rem 0rem 0rem;
+          img {
+            width: 4rem;
+            height: 4rem;
+            margin-top: 0.5rem;
+          }
+          h6 {
+            font-size: 12px;
+          }
+        }
+        .second {
+          padding: 1rem 0.5rem;
+        
+        }
+        .third {
+          padding: 0;
+          margin-top: 2rem;
+          h6 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

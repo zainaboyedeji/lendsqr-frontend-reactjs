@@ -1,0 +1,25 @@
+.appCard {
+  width: 240px;
+  height: 160px;
+  border-radius: 4px;
+  margin-top: 1rem;
+
+  p {
+    color: #545f7d;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "WorkSans Medium";
+  }
+
+  h3 {
+    color: #213f7d;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "WorkSans Bold";
+  }
+}
+@media (max-width: 509px) {
+  .appCard {
+    width: 100%;
+  }
+}

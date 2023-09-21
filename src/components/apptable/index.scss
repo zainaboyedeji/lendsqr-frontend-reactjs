@@ -1,0 +1,78 @@
+.tableDiv{
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  table {
+    width: 100%;
+    border-radius: 5px;
+    thead {
+      tr {
+        th {
+          .tableTh {
+            h6 {
+              color: #545f7d;
+              font-weight: 500;
+              font-size: 13px;
+              font-family: "WorkSans Bold";
+            }
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        border-bottom: 1px solid #213f7d0f;
+        color: #545f7d;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "WorkSans Regular";
+        td {
+          padding: 1.3rem 0rem;
+        }
+      }
+      tr:last-child {
+        border: none;
+      }
+    }
+  }
+}
+
+.whatsPoppin {
+  padding: 1.3rem 1rem;
+  // width:400px;
+  h6 {
+    color: #545f7d;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "WorkSans Medium";
+  }
+  .appInputWrap {
+    // width:100%;
+    input{
+      padding: 20px;
+      border-radius: 10px;
+    }
+    select {
+      width: 100%;
+      height: 50px;
+      padding-left: 12px;
+      border: 2px solid rgba(84, 95, 125, 0.15);
+      border-radius: 10px;
+    }
+  }
+  .popperButtons{
+    font-family: "WorkSans Bold";
+    .resetButton{
+      border:1px solid #545F7D;
+      color:#545F7D;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+    .filterButton{
+      background-color: #39CDCC;
+      color:white;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+  }
+}

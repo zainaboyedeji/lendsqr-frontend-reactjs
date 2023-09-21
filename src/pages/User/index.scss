@@ -1,0 +1,99 @@
+.userMain {
+  h6 {
+    color: #213f7d;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "WorkSans Medium";
+  }
+
+  .showSelect {
+    color: #545f7d;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "WorkSans Regular";
+  }
+
+  .tableSection {
+    td {
+      .status-active {
+        background-color: rgb(236 252 203);
+        border: none;
+        color: #39CD62;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
+      .status-inactive {
+        background-color: rgb(245 245 245);
+        border: none;
+        color: #545F7D;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
+      .status-pending {
+        background-color: rgb(255 237 213);
+        border: none;
+        color: #E9B200;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
+      .status-blacklisted {
+        background-color: rgb(254 202 202);
+        border: none;
+        color: #E4033B;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
+    }
+  }
+
+  .paginationStyle {
+    li {
+      button {
+        span {
+          svg {
+            color: #213f7d;
+            background-color: #213f7d1a;
+          }
+        }
+      }
+      .ant-pagination-item-active {
+        background-color: red !important;
+      }
+      a {
+        color: #545f7d;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "WorkSans Regular";
+      }
+    }
+  }
+}
+
+.viewPopper{
+  p{
+    color: #545f7d;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "WorkSans Medium";
+  }
+}

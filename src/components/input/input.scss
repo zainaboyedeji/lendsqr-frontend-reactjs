@@ -1,0 +1,21 @@
+.appInputWrap {
+    position: relative;
+    input {
+        width:100%;
+        height: 50px;
+        padding-left: 12px;
+        border: 2px solid rgba(84, 95, 125, 0.15);
+        border-radius: 5px;
+    }
+
+    span {
+        color: #39CDCC;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'AvenirNext Bold';
+        position: absolute;
+        margin-right: 20px;
+        right: -5px;
+        top: 20px;
+    }
+}

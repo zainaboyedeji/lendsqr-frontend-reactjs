@@ -1,0 +1,71 @@
+.appNavbar {
+  .navbarSearch {
+    input {
+      font-family: "WorkSans Regular";
+      &::placeholder {
+      }
+    }
+
+    span {
+      button {
+        background-color: #39cdcc;
+      }
+    }
+  }
+
+  .navbarLast {
+    a {
+      text-decoration: underline;
+      font-family: "Roboto Regular";
+      color: #213f7d;
+      font-size: 13px;
+    }
+
+    p {
+      font-family: "WorkSans Medium";
+      font-size: 16px;
+      font-weight: 500;
+      color: #213f7d;
+    }
+  }
+}
+
+@media (max-width: 1022px) {
+  .appNavbar {
+    padding: 1rem;
+    .navbarLast {
+      margin: 0;
+    }
+    .navbarSearch {
+      margin: 0;
+    }
+  }
+  .mobileNav {
+    display: block;
+    .ant-modal-root{
+      .ant-wrap{
+        .ant-modal{
+          .ant-modal-content{
+            background-color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 686px) {
+  .appNavbar {
+    .navbarLast {
+      a {
+        margin-right: 1rem;
+      }
+      .searchMobile {
+        display: block;
+      }
+    }
+    .navbarSearch {
+      display: none;
+    }
+  }
+}
