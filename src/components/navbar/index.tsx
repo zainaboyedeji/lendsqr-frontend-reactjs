@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Button, Modal, Input } from "antd";
+import { Modal, Input } from "antd";
 import CompanyLogo from "../logo/index";
 import { Link } from "react-router-dom";
 import Bell from "../../images/bell.png";
 import Avatar from "../../images/avatar.png";
 import Dropdown from "../../images/dropdown.png";
-import hamburger from "../../images/hamburger.jpg";
 import AppMenu from "../appmenu/appmenu.tsx";
 import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
 import "./index.scss";

@@ -52,9 +52,9 @@ export const SelectField = (props: SelectFieldProps) => {
         })}
         defaultValue={""}
       >
-        <option key={"0"} value="" selected disabled>
+        {/* <option key={"0"} value="" selected disabled>
           {defaultValue}
-        </option>
+        </option> */}
         {options.map((data) => {
           return (
             <option key={data.id} value={data.id}>
